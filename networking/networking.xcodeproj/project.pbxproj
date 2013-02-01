@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5231B32416BB549800A09E78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5231B32316BB549800A09E78 /* UIKit.framework */; };
+		5231B32616BB549800A09E78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5231B32516BB549800A09E78 /* Foundation.framework */; };
+		5231B32816BB549800A09E78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5231B32716BB549800A09E78 /* CoreGraphics.framework */; };
+		5231B32E16BB549800A09E78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5231B32C16BB549800A09E78 /* InfoPlist.strings */; };
+		5231B33016BB549800A09E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231B32F16BB549800A09E78 /* main.m */; };
+		5231B33416BB549800A09E78 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231B33316BB549800A09E78 /* SPAppDelegate.m */; };
+		5231B33616BB549800A09E78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5231B33516BB549800A09E78 /* Default.png */; };
+		5231B33816BB549800A09E78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5231B33716BB549800A09E78 /* Default@2x.png */; };
+		5231B33A16BB549800A09E78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5231B33916BB549800A09E78 /* Default-568h@2x.png */; };
+		5231B34316BB5A3300A09E78 /* SPNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231B34216BB5A3300A09E78 /* SPNetworkFetcher.m */; };
+		5231B34A16BB62E600A09E78 /* SPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231B34916BB62E600A09E78 /* SPNetworkCache.m */; };
+		5231B34D16BB709800A09E78 /* SPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231B34C16BB709800A09E78 /* SPNetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5231B31F16BB549800A09E78 /* networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5231B32316BB549800A09E78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5231B32516BB549800A09E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5231B32716BB549800A09E78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5231B32B16BB549800A09E78 /* networking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "networking-Info.plist"; sourceTree = "<group>"; };
+		5231B32D16BB549800A09E78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5231B32F16BB549800A09E78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5231B33116BB549800A09E78 /* networking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "networking-Prefix.pch"; sourceTree = "<group>"; };
+		5231B33216BB549800A09E78 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		5231B33316BB549800A09E78 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		5231B33516BB549800A09E78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5231B33716BB549800A09E78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5231B33916BB549800A09E78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5231B34116BB5A3300A09E78 /* SPNetworkFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNetworkFetcher.h; sourceTree = "<group>"; };
+		5231B34216BB5A3300A09E78 /* SPNetworkFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNetworkFetcher.m; sourceTree = "<group>"; };
+		5231B34816BB62E600A09E78 /* SPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNetworkCache.h; sourceTree = "<group>"; };
+		5231B34916BB62E600A09E78 /* SPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNetworkCache.m; sourceTree = "<group>"; };
+		5231B34B16BB709700A09E78 /* SPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNetworkManager.h; sourceTree = "<group>"; };
+		5231B34C16BB709800A09E78 /* SPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNetworkManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5231B31C16BB549700A09E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5231B32416BB549800A09E78 /* UIKit.framework in Frameworks */,
+				5231B32616BB549800A09E78 /* Foundation.framework in Frameworks */,
+				5231B32816BB549800A09E78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5231B31416BB549700A09E78 = {
+			isa = PBXGroup;
+			children = (
+				5231B34016BB54EC00A09E78 /* SPNetworking */,
+				5231B32916BB549800A09E78 /* networking */,
+				5231B32216BB549800A09E78 /* Frameworks */,
+				5231B32016BB549800A09E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5231B32016BB549800A09E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5231B31F16BB549800A09E78 /* networking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5231B32216BB549800A09E78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5231B32316BB549800A09E78 /* UIKit.framework */,
+				5231B32516BB549800A09E78 /* Foundation.framework */,
+				5231B32716BB549800A09E78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5231B32916BB549800A09E78 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				5231B33216BB549800A09E78 /* SPAppDelegate.h */,
+				5231B33316BB549800A09E78 /* SPAppDelegate.m */,
+				5231B32A16BB549800A09E78 /* Supporting Files */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		5231B32A16BB549800A09E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5231B32B16BB549800A09E78 /* networking-Info.plist */,
+				5231B32C16BB549800A09E78 /* InfoPlist.strings */,
+				5231B32F16BB549800A09E78 /* main.m */,
+				5231B33116BB549800A09E78 /* networking-Prefix.pch */,
+				5231B33516BB549800A09E78 /* Default.png */,
+				5231B33716BB549800A09E78 /* Default@2x.png */,
+				5231B33916BB549800A09E78 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5231B34016BB54EC00A09E78 /* SPNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5231B34116BB5A3300A09E78 /* SPNetworkFetcher.h */,
+				5231B34216BB5A3300A09E78 /* SPNetworkFetcher.m */,
+				5231B34816BB62E600A09E78 /* SPNetworkCache.h */,
+				5231B34916BB62E600A09E78 /* SPNetworkCache.m */,
+				5231B34B16BB709700A09E78 /* SPNetworkManager.h */,
+				5231B34C16BB709800A09E78 /* SPNetworkManager.m */,
+			);
+			name = SPNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5231B31E16BB549700A09E78 /* networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5231B33D16BB549800A09E78 /* Build configuration list for PBXNativeTarget "networking" */;
+			buildPhases = (
+				5231B31B16BB549700A09E78 /* Sources */,
+				5231B31C16BB549700A09E78 /* Frameworks */,
+				5231B31D16BB549700A09E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = networking;
+			productName = networking;
+			productReference = 5231B31F16BB549800A09E78 /* networking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5231B31616BB549700A09E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Stratpoint;
+			};
+			buildConfigurationList = 5231B31916BB549700A09E78 /* Build configuration list for PBXProject "networking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5231B31416BB549700A09E78;
+			productRefGroup = 5231B32016BB549800A09E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5231B31E16BB549700A09E78 /* networking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5231B31D16BB549700A09E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5231B32E16BB549800A09E78 /* InfoPlist.strings in Resources */,
+				5231B33616BB549800A09E78 /* Default.png in Resources */,
+				5231B33816BB549800A09E78 /* Default@2x.png in Resources */,
+				5231B33A16BB549800A09E78 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5231B31B16BB549700A09E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5231B33016BB549800A09E78 /* main.m in Sources */,
+				5231B33416BB549800A09E78 /* SPAppDelegate.m in Sources */,
+				5231B34316BB5A3300A09E78 /* SPNetworkFetcher.m in Sources */,
+				5231B34A16BB62E600A09E78 /* SPNetworkCache.m in Sources */,
+				5231B34D16BB709800A09E78 /* SPNetworkManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5231B32C16BB549800A09E78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5231B32D16BB549800A09E78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5231B33B16BB549800A09E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5231B33C16BB549800A09E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5231B33E16BB549800A09E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "networking/networking-Prefix.pch";
+				INFOPLIST_FILE = "networking/networking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5231B33F16BB549800A09E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "networking/networking-Prefix.pch";
+				INFOPLIST_FILE = "networking/networking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5231B31916BB549700A09E78 /* Build configuration list for PBXProject "networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5231B33B16BB549800A09E78 /* Debug */,
+				5231B33C16BB549800A09E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5231B33D16BB549800A09E78 /* Build configuration list for PBXNativeTarget "networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5231B33E16BB549800A09E78 /* Debug */,
+				5231B33F16BB549800A09E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5231B31616BB549700A09E78 /* Project object */;
+}
